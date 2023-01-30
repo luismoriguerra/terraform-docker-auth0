@@ -1,0 +1,58 @@
+Arguments: 
+  /Users/luis/.nvm/versions/node/v16.15.1/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js init
+
+PATH: 
+  /usr/local/opt/openjdk/bin:/Users/luis/.yarn/bin:/Users/luis/.config/yarn/global/node_modules/.bin:/usr/local/opt/libxml2/bin:/Users/luis/.nvm/versions/node/v16.15.1/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/usr/local/opt/openjdk/bin:/Users/luis/.yarn/bin:/Users/luis/.config/yarn/global/node_modules/.bin:/usr/local/opt/libxml2/bin:/Users/luis/.nvm/versions/node/v16.15.1/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Users/luis/.cargo/bin:/Applications/iTerm.app/Contents/Resources/utilities:/Users/luis/go/bin:/Users/luis/Library/Python/2.7/bin:/Library/PostgreSQL/11/bin:/Users/luis/flutter/bin:/usr/local/bin:/bin:/Users/luis/go/bin:/Users/luis/Library/Python/2.7/bin:/Library/PostgreSQL/11/bin:/Users/luis/flutter/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.15.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:137143:13)
+      at Interface.emit (node:events:527:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:527:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:527:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  {
+    "name": "terraform-express-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "init": "envconsul env terraform init",
+      "plan": "envconsul env terraform plan"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cookie-parser": "^1.4.5",
+      "express": "^4.17.1",
+      "express-session": "^1.17.1",
+      "jwt-decode": "^2.2.0",
+      "passport": "^0.4.1",
+      "passport-auth0": "^1.3.2",
+      "pug": "^2.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
